@@ -28,7 +28,7 @@ import com.github.bmaggi.conditional.validation.operators.Not;
 
 /**
  * FIXME : correct javadoc example
- * @author benoit.maggi 
+ * @author Benoit Maggi 
  *
  */
 public abstract class AbstractEvaluable implements IEvaluable{

@@ -6,6 +6,37 @@
 	<packaging>maven-plugin</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>conditional-validation</name>
+	<description>A simple example of a Maven Mojo providing conditional validation. The conditions are statically defined in the configuration pom.xml</description>
+	<url>https://github.com/bmaggi/conditional-validation</url>
+
+	<licenses>
+		<license>
+			<name>Apache License, Version 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+
+
+	<organization>
+		<name>Benoit Maggi</name>
+		<url>https://github.com/bmaggi/</url>
+	</organization>
+	<scm>
+		<url>https://github.com/bmaggi/conditional-validation</url>
+	</scm>
+	<issueManagement>
+		<url>https://github.com/bmaggi/conditional-validation/issues</url>
+		<system>GitHub Issues</system>
+	</issueManagement>
+	<ciManagement>
+		<system>travis</system>
+		<url>https://travis-ci.org/bmaggi/conditional-validation</url>
+	</ciManagement>
+
+
+
+
 	<dependencies>
 		<dependency>
 			<groupId>org.apache.maven</groupId>
@@ -31,7 +62,7 @@
 				<directory>src/test/testng-filtered</directory>
 				<filtering>true</filtering>
 			</testResource>
-		</testResources>	
+		</testResources>
 		<plugins>
 			<plugin>
 				<artifactId>maven-invoker-plugin</artifactId>
@@ -64,23 +95,6 @@
 
 		</plugins>
 	</build>
-
-	<organization>
-		<name>Benoit Maggi</name>
-		<url>https://github.com/bmaggi/</url>
-	</organization>
-	<scm>
-		<url>https://github.com/bmaggi/conditional-validation</url>
-	</scm>
-	<issueManagement>
-		<url>https://github.com/bmaggi/conditional-validation/issues</url>
-		<system>GitHub Issues</system>
-	</issueManagement>
-	<ciManagement>
-		<system>travis</system>
-		<url>https://travis-ci.org/</url>
-	</ciManagement>
-
 	<reporting>
 		<plugins>
 			<plugin>
@@ -92,7 +106,4 @@
 			</plugin>
 		</plugins>
 	</reporting>
-
-	<description>A simple example of a Maven Mojo providing conditional validation. The conditions are statically defined in the configuration pom.xml</description>
-	<url>https://github.com/bmaggi/conditional-validation</url>
 </project>

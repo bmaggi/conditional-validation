@@ -65,7 +65,6 @@
 		</plugins>
 	</build>
 
-	<description>A simple plugin to use condition for validation a plugin</description>
 	<organization>
 		<name>Benoit Maggi</name>
 		<url>https://github.com/bmaggi/</url>
@@ -78,7 +77,8 @@
 		<system>GitHub Issues</system>
 	</issueManagement>
 	<ciManagement>
-		<system>yaml</system>
+		<system>travis</system>
+		<url>https://travis-ci.org/</url>
 	</ciManagement>
 
 	<reporting>
@@ -93,4 +93,6 @@
 		</plugins>
 	</reporting>
 
+	<description>A simple example of a Maven Mojo providing conditional validation. The conditions are statically defined in the configuration pom.xml</description>
+	<url>https://github.com/bmaggi/conditional-validation</url>
 </project>

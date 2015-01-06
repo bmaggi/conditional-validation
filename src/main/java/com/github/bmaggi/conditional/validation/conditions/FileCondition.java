@@ -26,8 +26,8 @@ import com.github.bmaggi.conditional.validation.AbstractEvaluable;
 import com.github.bmaggi.conditional.validation.IEvaluable;
 
 /**
- * @author BM242984
- *
+ * 
+ * @author Benoit Maggi
  */
 public class FileCondition extends AbstractEvaluable implements IEvaluable{
 

@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="ConditionSuite" verbose="1" >
+  <test name="testAnd" >
+    <classes>
+       <class name="com.github.bmaggi.conditional.validation.tests.AndTest" />
+    </classes>
+  </test>
+</suite>

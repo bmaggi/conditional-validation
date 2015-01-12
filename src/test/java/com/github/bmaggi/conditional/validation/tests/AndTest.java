@@ -28,11 +28,12 @@ import com.github.bmaggi.conditional.validation.conditions.ConditionFactory;
 import com.github.bmaggi.conditional.validation.operators.And;
 
 /**
- * 
- * 
+ * Tests for the AND operator
+ * Check 
+ * 		- the classic AND resolution table  
+ *      - an empty AND
  */
 public class AndTest {
-
 
 	 @DataProvider(name="andResolutionTable")
 	     public Object [][] messageProvider() {

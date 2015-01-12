@@ -31,11 +31,18 @@ import org.apache.maven.plugins.annotations.Parameter;
 
 import com.github.bmaggi.conditional.validation.Condition.LEVEL;
 
+/**
+ * Mojo for launching a validation with conditions
+ * @author Benoit Maggi
+ */
 @Mojo(name = "validateMe",
       defaultPhase = LifecyclePhase.VALIDATE,
       requiresProject = false)
 public class ValidationMojo extends AbstractMojo {
 	
+	/**
+	 * List of conditions to evaluate
+	 */
 	@Parameter(property = "conditions")
 	private List<Condition> conditions;	
 	
@@ -47,10 +54,9 @@ public class ValidationMojo extends AbstractMojo {
 	 */
 	public void execute() throws MojoExecutionException, MojoFailureException {
 		Log log = getLog();
-		log.info("TODO-4 Validation");
-		log.info(""+conditions.size());
+		log.debug("There are "+conditions.size() + "conditions");
 		for (Condition condition : conditions) {
-			log.info(""+condition.toString()+" class :"+condition.getClass());
+			log.debug("Evaluate (Condition type): "+condition.toString()+" ("+condition.getClass()+")");
 			if (!(condition).evaluate()){
 				String message = condition.getMessage();
 				if (LEVEL.ERROR == condition.getLevel()){

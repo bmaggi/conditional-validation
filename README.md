@@ -1,8 +1,10 @@
 conditional-validation
 ======================
 
-## Travis CI 
-[![Build Status](https://travis-ci.org/bmaggi/conditional-validation.svg?branch=master)](https://travis-ci.org/bmaggi/conditional-validation)
+## Build status 
+Travis [![Build Status](https://travis-ci.org/bmaggi/conditional-validation.svg?branch=master)](https://travis-ci.org/bmaggi/conditional-validation)
+
+Codeship ![Build Status](https://codeship.com/projects/89551/status?branch=master)
 
 ## Maven Generated web [site] (http://bmaggi.github.io/conditional-validation/)
 

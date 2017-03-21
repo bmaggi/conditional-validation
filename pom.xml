@@ -8,6 +8,16 @@
 	<description>A simple example of a Maven Mojo providing conditional validation. The conditions are statically defined in the configuration pom.xml</description>
 	<url>https://github.com/bmaggi/conditional-validation</url>
 
+
+	<developers>
+		<developer>
+			<id>bmaggi</id>
+			<email>benoit.maggi@gmail.com</email>
+			<name>Benoît Maggi</name>
+			<url>https://github.com/bmaggi</url>
+		</developer>
+	</developers>
+
 	<licenses>
 		<license>
 			<name>Apache License, Version 2.0</name>

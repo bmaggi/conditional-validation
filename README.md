@@ -32,3 +32,12 @@ A simple example of a Maven Mojo providing conditional validation. The condition
 	</and>
 </condition>
 ```  
+
+## To release on maven central.
+```  
+mvn release:clean release:prepare 
+```  
+follow by
+```  
+mvn release:perform
+```  

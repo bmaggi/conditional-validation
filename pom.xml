@@ -23,7 +23,10 @@
 		<url>https://github.com/bmaggi/</url>
 	</organization>
 	<scm>
-		<url>https://github.com/bmaggi/conditional-validation</url>
+		<connection>scm:git:git://github.com/bmaggi/conditional-validationgit</connection>
+		<developerConnection>scm:git:git@github.com:bmaggi/conditional-validation.git</developerConnection>
+		<url>http://github.com/bmaggi/conditional-validation/tree/master</url>
+		<tag>HEAD</tag>
 	</scm>
 	<issueManagement>
 		<url>https://github.com/bmaggi/conditional-validation/issues</url>

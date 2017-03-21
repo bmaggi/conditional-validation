@@ -3,7 +3,7 @@
 	<groupId>com.github.bmaggi</groupId>
 	<artifactId>conditional-validation</artifactId>
 	<packaging>maven-plugin</packaging>
-	<version>0.1.0</version>
+	<version>0.1.1-SNAPSHOT</version>
 	<name>conditional-validation</name>
 	<description>A simple example of a Maven Mojo providing conditional validation. The conditions are statically defined in the configuration pom.xml</description>
 	<url>https://github.com/bmaggi/conditional-validation</url>
@@ -25,7 +25,7 @@
 		<connection>scm:git:git://github.com/bmaggi/conditional-validationgit</connection>
 		<developerConnection>scm:git:git@github.com:bmaggi/conditional-validation.git</developerConnection>
 		<url>http://github.com/bmaggi/conditional-validation/tree/master</url>
-		<tag>0.1.0</tag>
+		<tag>HEAD</tag>
 	</scm>
 	<issueManagement>
 		<url>https://github.com/bmaggi/conditional-validation/issues</url>

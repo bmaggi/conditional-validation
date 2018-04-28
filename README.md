@@ -8,14 +8,14 @@ A simple example of a Maven Mojo providing conditional validation. The condition
 [![License](http://img.shields.io/badge/license-APACHE2-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.bmaggi/conditional-validation/badge.svg?style=plastic)](https://maven-badges.herokuapp.com/maven-central/com.github.bmaggi/conditional-validation)
 
-## Maven Generated web [site](http://bmaggi.github.io/conditional-validation/)
+## Maven Generated [site](http://bmaggi.github.io/conditional-validation/)
 
-## Usage :
+## Usage:
  Operators : And, Not, Or, Xor 
  
  Condition : FileCondition 
  
- ## Examples
+ ## Examples:
   * File condition
 ```xml
 <condition>
@@ -32,11 +32,11 @@ A simple example of a Maven Mojo providing conditional validation. The condition
 </condition>
 ```  
 
-## To release on maven central.
+## To release on maven central:
 ```  
 mvn release:clean release:prepare 
 ```  
-follow by
+followed by
 ```  
 mvn release:perform
 ```  

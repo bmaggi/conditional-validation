@@ -10,12 +10,12 @@ A simple example of a Maven Mojo providing conditional validation. The condition
 
 ## Maven Generated [site](http://bmaggi.github.io/conditional-validation/)
 
-## Usage:
+## Usage
  Operators : And, Not, Or, Xor 
  
  Condition : FileCondition 
  
- ## Examples:
+ ## Examples
   * File condition
 ```xml
 <condition>
@@ -32,7 +32,7 @@ A simple example of a Maven Mojo providing conditional validation. The condition
 </condition>
 ```  
 
-## To release on maven central:
+## Release on maven central
 ```  
 mvn release:clean release:prepare 
 ```  
